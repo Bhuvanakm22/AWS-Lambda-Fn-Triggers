@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambda-annotation", "AWSLambda-annotation\AWSLambda-annotation.csproj", "{61C2967A-2283-936A-6323-2B1F434A0602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambda.lambda.sqs.Triggers", "AWSLambda.lambda.sqs\AWSLambda.lambda.sqs.Triggers.csproj", "{C382947C-57F5-B891-92D0-7544EDB5A21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambda.lambda.sns.Triggers", "AWSLambda.lambda.sns\AWSLambda.lambda.sns.Triggers.csproj", "{56294D49-C033-17B5-EF96-D74AD1E8C998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Lambda", "AWSLambda\AWS.Lambda.csproj", "{91BF5B35-ED06-106D-C1A8-44BD47D4BACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C2967A-2283-936A-6323-2B1F434A0602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C2967A-2283-936A-6323-2B1F434A0602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C2967A-2283-936A-6323-2B1F434A0602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C2967A-2283-936A-6323-2B1F434A0602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C382947C-57F5-B891-92D0-7544EDB5A21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C382947C-57F5-B891-92D0-7544EDB5A21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C382947C-57F5-B891-92D0-7544EDB5A21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C382947C-57F5-B891-92D0-7544EDB5A21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56294D49-C033-17B5-EF96-D74AD1E8C998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56294D49-C033-17B5-EF96-D74AD1E8C998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56294D49-C033-17B5-EF96-D74AD1E8C998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56294D49-C033-17B5-EF96-D74AD1E8C998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BF5B35-ED06-106D-C1A8-44BD47D4BACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BF5B35-ED06-106D-C1A8-44BD47D4BACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BF5B35-ED06-106D-C1A8-44BD47D4BACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BF5B35-ED06-106D-C1A8-44BD47D4BACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {153F5B50-3301-402A-B68B-0CE0BFD2056D}
+	EndGlobalSection
+EndGlobal
